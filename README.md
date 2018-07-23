@@ -6,4 +6,5 @@ gmRAD is used to call SNP genotypes across a hybrid population with RAD-seq data
         3. Generating the parental SNP catalogs;  
         4. Calling SNP genotypes across the individuals in the whole population;  
         5. Filtering the SNP data by considering segregation ratio and missing data.  
-
+# Usage
+To run gmRAD, users should install the three prerequisite packages: LOCAS(http://ab.inf.uni-tuebingen.de/software/locas/), BWA and SAMtools (with BCFtools).
