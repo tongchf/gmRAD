@@ -34,7 +34,10 @@ To run gmRAD, users should install the three prerequisite packages: [LOCAS](http
         .......................................  
         PROGENY19:  sample19_1.fq  sample19_2.fq  
         PROGENY20:  sample20_1.fq  sample20_2.fq  
-
+  
+  When the reqired software are installed and the parameter file is parepared, you can get started with the command:  
+  `perl gmRAD.pl`  
+  You can run with the 'help' option to show the usage of gmRAD.
 # Test Data
        
 
