@@ -35,9 +35,20 @@ To run gmRAD, users should install the three prerequisite packages: [LOCAS](http
         PROGENY19:  sample19_1.fq  sample19_2.fq  
         PROGENY20:  sample20_1.fq  sample20_2.fq  
   
-  When the reqired software are installed and the parameter file is parepared, you can get started with the command:  
+  When the required software packages are installed and the parameter file is parepared, you can get started with the command:  
   `perl gmRAD.pl`  
-  You can run with the 'help' option to show the usage of gmRAD.
+  You can run with the 'help' option (`perl gmRAD.pl -h`)to show the usage of gmRAD:
+
+        Usage: perl gmRAD.pl [Options]
+        
+        Options:
+                --nocluster  skip the step for clustering the first reads of each parent  
+                --nobuild    skip the step for building the parental reference sequences  
+                --nocatalog  skip the step for generating parental SNP catalogs  
+                --nocall     skip the step for calling SNP genotypes for all progeny
+                --nofilter   skip the step for filtering the SNP genotype data  
+                --help|h     help  
+
 # Test Data
        
 
