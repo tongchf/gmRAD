@@ -36,7 +36,8 @@ To run gmRAD, users should install the three prerequisite packages: [LOCAS](http
         PROGENY20:  sample20_1.fq  sample20_2.fq  
   
   When the required software packages are installed and the parameter file is parepared, you can get started with the command:  
-  `perl gmRAD.pl`  
+  `perl gmRAD.pl`
+    
   You can run with the 'help' option (`perl gmRAD.pl -h`)to show the usage of gmRAD:
 
         Usage: perl gmRAD.pl [Options]
@@ -48,7 +49,7 @@ To run gmRAD, users should install the three prerequisite packages: [LOCAS](http
                 --nocall     skip the step for calling SNP genotypes for all progeny
                 --nofilter   skip the step for filtering the SNP genotype data  
                 --help|h     help  
-
+It can be seen that users can perform 
 # Test Data
        
 
