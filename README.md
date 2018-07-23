@@ -16,37 +16,25 @@ To run gmRAD, users should install the three prerequisite packages: [LOCAS](http
         SAMTOOLS_FOLD:/home/tong/samtools-1.4.1  
         BCFTOOLS_FOLD:/home/tong/bcftools-1.4.1  
         RADDATA_FOLD:/home/tong/exampledata  
+          
+        [parameters]  
+        THREADS: 4  
+        EDITDST: 5  
+        GENOMEREPEAT: 30  
+        GQ: 30  
+        MISPCT: 90  
+        PVALUE: 0.01  
 
-[parameters]
-THREADS: 4
-EDITDST: 5
-GENOMEREPEAT: 30
-GQ: 30
-MISPCT: 90
-PVALUE: 0.01
+        [fastq files]  
+        FEMALEPARENT: female_1.fq   female_2.fq  
+        MALEPARENT: male_1.fq   male_2.fq  
+        PROGENY1:  sample01_1.fq  sample01_2.fq  
+        PROGENY2:  sample02_1.fq  sample02_2.fq  
+        PROGENY3:  sample03_1.fq  sample03_2.fq  
+        .......................................  
+        PROGENY19:  sample19_1.fq  sample19_2.fq  
+        PROGENY20:  sample20_1.fq  sample20_2.fq  
 
-[fastq files]
-FEMALEPARENT: female_1.fq   female_2.fq
-MALEPARENT: male_1.fq   male_2.fq
-
-PROGENY1:  sample01_1.fq  sample01_2.fq
-PROGENY2:  sample02_1.fq  sample02_2.fq
-PROGENY3:  sample03_1.fq  sample03_2.fq
-PROGENY4:  sample04_1.fq  sample04_2.fq
-PROGENY5:  sample05_1.fq  sample05_2.fq
-PROGENY6:  sample06_1.fq  sample06_2.fq
-PROGENY7:  sample07_1.fq  sample07_2.fq
-PROGENY8:  sample08_1.fq  sample08_2.fq
-PROGENY9:  sample09_1.fq  sample09_2.fq
-PROGENY10:  sample10_1.fq  sample10_2.fq
-PROGENY11:  sample11_1.fq  sample11_2.fq
-PROGENY12:  sample12_1.fq  sample12_2.fq
-PROGENY13:  sample13_1.fq  sample13_2.fq
-PROGENY14:  sample14_1.fq  sample14_2.fq
-PROGENY15:  sample15_1.fq  sample15_2.fq
-PROGENY16:  sample16_1.fq  sample16_2.fq
-PROGENY17:  sample17_1.fq  sample17_2.fq
-PROGENY18:  sample18_1.fq  sample18_2.fq
-PROGENY19:  sample19_1.fq  sample19_2.fq
-PROGENY20:  sample20_1.fq  sample20_2.fq
+# Test Data
+       
 
