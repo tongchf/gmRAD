@@ -49,7 +49,7 @@ To run gmRAD, users should install the three prerequisite packages: [LOCAS](http
                 --nocall     skip the step for calling SNP genotypes for all progeny
                 --nofilter   skip the step for filtering the SNP genotype data  
                 --help|h     help  
-It can be seen that users can perform the analysis steps independently by adding some options described as above if some prerequisite files are avaiable.  
+It can be seen that users can perform the analytical steps independently by adding some options described as above if some prerequisite files are avaiable.  
 # Test Data
        
-
+We provide a test data for users to quickly grasp the use of gmRAD. The data is archived in the reads files of 2 parents and their 20 progeny samples. All data files can be downloaded in a compressed file as [sampledata.tar.gz](http://www.bioseqdata.com/gmRAD/sampledata.tar.gz/).
