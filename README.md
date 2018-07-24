@@ -52,4 +52,4 @@ To run gmRAD, users should install the three prerequisite packages: [LOCAS](http
 It can be seen that users can perform the analytical steps independently by adding some options described as above if some prerequisite files are avaiable.  
 # Test Data
        
-We provide a test data for users to quickly grasp the use of gmRAD. All reads data files can be downloaded in a compressed file as [exampledata.tar.gz](http://www.bioseqdata.com/gmRAD/exampledata.tar.gz), including 2 parents and their 20 progeny samples. 
+We provide a test data for users to quickly grasp the use of gmRAD. All reads data files can be downloaded in a compressed file as [exampledata.tar.gz](http://www.bioseqdata.com/gmRAD/exampledata.tar.gz), including 2 parents and their 20 progeny samples. With the parameter file [parameter.ini]() attached at this site, we can perform the analysis process by inputting the command: `perl gmRAD.pl`.
