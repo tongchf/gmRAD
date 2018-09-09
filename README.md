@@ -35,7 +35,7 @@ To run gmRAD, users should install the three prerequisite packages: [LOCAS](http
         PROGENY19:  sample19_1.fq  sample19_2.fq  
         PROGENY20:  sample20_1.fq  sample20_2.fq  
   
-  Additionally, users need to install two perl modules: `Parallel::ForkManager`, `Excel::Writer::XLSX`, `Switch` and `Statistics::Distributions`.  
+  Additionally, users need to install several perl modules such as `Parallel::ForkManager`, `Excel::Writer::XLSX`, `Switch` and `Statistics::Distributions`.  
   When the required software packages are installed and the parameter file is parepared and saved in a work directory, you can go to the work directory and get started with the command:  
   `perl PathToGmRAD/gmRAD.pl`
     
