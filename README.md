@@ -39,7 +39,7 @@ To run gmRAD, users should install the three prerequisite packages: [LOCAS](http
   When the required software packages are installed and the parameter file is parepared and saved in a work directory, you can go to the work directory and get started with the command:  
   `perl PathToGmRAD/gmRAD.pl`
     
-  Since it will take quite a few hours or even several days to finish a paratical work, we usually run the command in background as  
+  Since it will take quite a few hours or even several days to finish a pratical computing, we usually run the command in background as  
   `nohup perl PathToGmRAD/gmRAD.pl &`
   
   You can run with the 'help' option (`perl PathToGmRAD/gmRAD.pl -h`) to show the usage of gmRAD:
