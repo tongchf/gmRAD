@@ -52,7 +52,7 @@ To run gmRAD, users should install the three prerequisite packages: [LOCAS](http
                 --help|h     help  
 It can be seen that users can perform the analytical steps independently by adding some options described as above if some prerequisite files are avaiable.  For example, only to perform the clustering step and skip others, please type command:   
 `perl PathToGmRAD/gmRAD.pl --nobuild --nocatalog --nocall --nocall`  
-To only perform the second step, we just type the following command:
+To only perform the second step, we just type the following command:  
 `perl PathToGmRAD/gmRAD.pl --nocluster --nocatalog --nocall --nocall` 
 
 # Test Data
