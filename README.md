@@ -65,4 +65,4 @@ We provide a test data for users to quickly grasp the use of gmRAD. All reads da
 # Notes
 
 1. gmRAD version 1.0 works with bwa v0.7.5a and samtools (bcftools) v1.4.1  
-2. gmRAD version 1.1 works with bwa from v0.7.10 to 0.7.17 and samtools (bcftools) from v1.5 to 1.9
+2. gmRAD version 1.1 works with bwa from v0.7.5a to 0.7.17 and samtools (bcftools) from v1.4.1 to 1.9
