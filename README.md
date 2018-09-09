@@ -50,7 +50,11 @@ To run gmRAD, users should install the three prerequisite packages: [LOCAS](http
                 --nocall     skip the step for calling SNP genotypes for all progeny
                 --nofilter   skip the step for filtering the SNP genotype data  
                 --help|h     help  
-It can be seen that users can perform the analytical steps independently by adding some options described as above if some prerequisite files are avaiable.  
+It can be seen that users can perform the analytical steps independently by adding some options described as above if some prerequisite files are avaiable.  For example, only to perform the clustering step and skip others, please type command:   
+`perl PathToGmRAD/gmRAD.pl --nobuild --nocatalog --nocall --nocall`  
+To only perform the second step, we just type the following command:
+`perl PathToGmRAD/gmRAD.pl --nocluster --nocatalog --nocall --nocall` 
+
 # Test Data
        
 We provide a test data for users to quickly grasp the use of gmRAD. All reads data files can be downloaded in a compressed file as [exampledata.tar.gz](http://www.bioseqdata.com/gmRAD/exampledata.tar.gz), including 2 parents and their 20 progeny samples. With the parameter file [parameters.ini](https://github.com/tongchf/gmRAD/blob/master/parameters.ini) attached at this site, we can perform the analysis process by inputting the command: `perl PathToGmRAD/gmRAD.pl`. When the computing finishes, we can obtain 6 segregation types of SNP genotype files, including aaxab_pct90pv01.txt, aaxbc_pct90pv01.txt, abxaa_pct90pv01.txt, abxab_pct90pv01.txt, abxac_pct90pv01.txt and abxcc_pct90pv01.txt, which contain 130, 34, 136, 28, 14 and 39 SNPs, respectively. In this test example, we cannot find the genotype file "abxcd_pct90pv01.txt", because no SNPs are generated in the segregation type of abxcd.
