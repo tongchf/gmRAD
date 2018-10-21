@@ -7,7 +7,7 @@ gmRAD is used to call SNP genotypes across a hybrid population with RAD-seq data
         4. Calling SNP genotypes across the individuals in the whole population;  
         5. Filtering the SNP data by considering segregation ratio and missing data.  
 # Usage
-To run gmRAD, users should install the three prerequisite packages: [LOCAS](http://ab.inf.uni-tuebingen.de/software/locas/), [BWA](http://bio-bwa.sourceforge.net/) and [SAMtools (with BCFtools)](http://samtools.sourceforge.net/), and prepare a parameter setting file, namely `parameters.ini`. The parameter file contains three parts, i.e., folders, parameters and fastq files. As the first part, 'folders' gives the paths to gmRAD itself, LOCAS, SAMtools, BCFtools and fastq files. The second part 'parameters' includes the number of threads used for parallel computing, the hamming distance for clustering the first reads, the edit distance for filtering mapped reads, the estimated percent of genome repeat regions, the minimum score of an SNP genotype, the percent of non-missing genotypes required at an SNP and the minimum p-value allowed for testing the segregation ratio of an SNP. The third part 'fastq files' presents the first read files and the second read files for all individuals including the two parents.  A typical parameter file looks as following:  
+To run gmRAD, users should install the three prerequisite packages: [LOCAS](http://ab.inf.uni-tuebingen.de/software/locas/), [BWA](http://bio-bwa.sourceforge.net/) and [SAMtools (with BCFtools)](http://samtools.sourceforge.net/), and prepare a parameter setting file, namely `parameters.ini`. The parameter file contains three parts, i.e., folders, parameters and fastq files. As the first part, 'folders' gives the paths to gmRAD itself, LOCAS, SAMtools, BCFtools and fastq files. The second part 'parameters' includes the number of threads used for parallel computing, the hamming distance for clustering the first reads, the edit distance for filtering mapped reads, the coverage depth of an allele for a heterozygote, the estimated percent of genome repeat regions, the minimum score of an SNP genotype, the percent of non-missing genotypes required at an SNP and the minimum p-value allowed for testing the segregation ratio of an SNP. The third part 'fastq files' presents the first read files and the second read files for all individuals including the two parents.  A typical parameter file looks as following:  
 
         [folders]  
         GMRAD_FOLD:/home/tong/gmRAD-1.1  
@@ -21,6 +21,7 @@ To run gmRAD, users should install the three prerequisite packages: [LOCAS](http
         THREADS: 4  
         HAMMDST: 5
         EDITDST: 5  
+        ALLELDP: 3
         GENOMEREPEAT: 30  
         GQ: 30  
         MISPCT: 90  
@@ -65,5 +66,6 @@ We provide a test data for users to quickly grasp the use of gmRAD. All reads da
 
 # Notes
 
-1. gmRAD version 1.0 works with bwa v0.7.5a and samtools (bcftools) v1.4.1  
-2. gmRAD version 1.1 works with bwa from v0.7.5a to 0.7.17 and samtools (bcftools) from v1.4.1 to 1.9
+1. Version 1.0 works with bwa v0.7.5a and samtools (bcftools) v1.4.1  
+2. Version 1.1 works with bwa from v0.7.5a to 0.7.17 and samtools (bcftools) from v1.4.1 to 1.9
+3. Version 1.2 provides parameter 'ALLELDP' for setting the coverage depth of an allele at heterzygous SNPs.
