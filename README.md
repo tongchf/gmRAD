@@ -69,3 +69,7 @@ We provide a test data for users to quickly grasp the use of gmRAD. All reads da
 1. Version 1.0 works with bwa v0.7.5a and samtools (bcftools) v1.4.1  
 2. Version 1.1 works with bwa from v0.7.5a to 0.7.17 and samtools (bcftools) from v1.4.1 to 1.9
 3. Version 1.2 provides parameter 'ALLELDP' for setting the coverage depth of an allele at heterzygous SNPs.
+
+# References
+
+Dan Yao, Hainan Wu, Yuhua Chen,Wenguo Yang, Hua Gao, ChunfaTong*. 2018. gmRAD: an integrated SNP calling pipeline for genetic mapping with RADseq across a hybrid population. Briefings in Bioinformatics, doi: 10.1093/bib/bby114 
