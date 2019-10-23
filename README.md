@@ -69,6 +69,7 @@ We provide a test data for users to quickly grasp the use of gmRAD. All reads da
 1. Version 1.0 works with bwa v0.7.5a and samtools (bcftools) v1.4.1  
 2. Version 1.1 works with bwa from v0.7.5a to 0.7.17 and samtools (bcftools) from v1.4.1 to 1.9
 3. Version 1.2 provides parameter 'ALLELDP' for setting the coverage depth of an allele at heterzygous SNPs.
+4. Version 1.3 updates the program `findIdenticalSNPs.pl`.
 
 # References
 
